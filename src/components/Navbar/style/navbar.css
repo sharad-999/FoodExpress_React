@@ -1,0 +1,94 @@
+nav {
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: 68px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  z-index: 5;
+}
+
+.navbar > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .logo {
+  height: 65px;
+  width: 200px;
+  padding-bottom: 6px;
+}
+
+.navbar .avtar {
+  height: 40px;
+  margin-right: 18px;
+}
+
+.navbar #userDropdown{
+  margin-right: 20%;
+}
+
+.navbar .cart {
+  color: #fff;
+  margin-right: 16px;
+}
+.navabr .nav-right > li {
+  margin-right: 16px;
+}
+
+.navbar .login-link {
+  margin-right: 25px;
+  color: #fff;
+}
+
+.navbar .login-link:hover {
+  color: #ffcf00;
+}
+
+.cart .counter {
+  position: absolute;
+  top: 16px;
+  right: 86px;
+  height: 14px;
+  width: 14px;
+  background-color: #ffca3a;
+  border-radius: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #8305ea;
+  text-align: center;
+  padding: 1px 0px;
+}
+
+.navbar .active {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .active a {
+  color: #222;
+}
+
+.navbar.active .container {
+  padding: 10px 0;
+}
+
+.nav-left a.current,
+.nav-left a:hover,
+.nav-right .cart:hover {
+  color: #ffcf00;
+}

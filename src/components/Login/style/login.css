@@ -1,0 +1,78 @@
+.add-item {
+  background-image: url(/public/Assets/Images/item-background.jpg);
+  height: 90vh;
+  width: 100%;
+}
+
+.card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 480px;
+  width: 800px;
+  border: none;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 15px;
+  background-color: #f7f7f7;
+}
+
+.login-img {
+  height: 480px;
+  width: 56rem;
+}
+
+.get-started {
+  font-weight: 700;
+  font-size: x-large;
+  font-style: 'Gilroy', serif;
+}
+
+.get-started .text {
+  margin-bottom: 2px;
+  margin-left: 3px;
+}
+
+.input {
+  border: 1px solid #808080;
+  background-color: #f7f7f7;
+  height: 37px;
+  width: 20rem;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 0 8px;
+}
+
+.login-btn {
+  height: 3rem;
+  width: 20rem;
+  border-radius: 9px;
+  background-color: #ffca40;
+  border: none;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.login-btn:hover {
+  background-color: #f8d300;
+}
+
+.form {
+  margin-left: 12px;
+}
+
+.add-ch-login {
+  text-decoration: none;
+  margin-left: 1rem;
+  margin: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.add-ch-login:hover {
+  color: #fff701;
+}
+
+.add-ch-login-a {
+  text-decoration: none;
+}

@@ -1,0 +1,163 @@
+:root {
+  --add-button: #ff595e;
+  --category-link: #ff595e;
+}
+
+.container-product h4 {
+  width: 8;
+  margin-top: 8px;
+  margin-left: 300px;
+  border-bottom: 2px solid #539987;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.image-icon {
+  margin-top: 75px;
+}
+
+.category .left-side {
+  display: flex;
+  position: absolute;
+}
+
+.image-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.item-list span {
+  text-align: center;
+}
+
+.Categories {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.Categories a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.Categories a:hover {
+  color: var(--category-link);
+}
+
+.left-side {
+  border-right: 2px solid #dcdbdb;
+  width: 17vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cate {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: #000;
+}
+
+.box2 {
+  width: fit-content;
+  display: flex;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.box2 a {
+  margin-left: 15px;
+  color: #1cb77c;
+}
+
+.box2 .image {
+  width: 175px;
+  height: 175px;
+  margin-left: 20px;
+  border-radius: 10px;
+  ;
+}
+
+.title {
+  width: 30vw;
+  width: 15hw;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.data {
+  width: 20vw;
+  margin-left: 20px;
+}
+
+.data p {
+  text-align: left;
+}
+
+.data .description {
+  height: fit-content;
+  width: 450px;
+  word-wrap: break-word;
+  font-size: 15px;
+}
+
+.data button {
+  border: 2px solid #ffca3a;
+  border-radius: 7px;
+  margin-top: 7px;
+  padding: 7px 12px;
+  color: white;
+  background-color: var(--add-button);
+}
+
+.b {
+  background-color: #539987;
+  color: #fbfafa;
+  border-radius: 10px;
+  width: 3vw;
+  text-align: center;
+  height: 35px;
+}
+
+.offer {
+  width: fit-content;
+  position: fixed;
+  transform: translate(400%, -2%);
+  margin-top: 30px;
+}
+
+.i1 {
+  width: 275px;
+  height: 275px;
+  display: block;
+  margin-bottom: 18px;
+}
+
+.i2 {
+  width: 275px;
+  height: 275px;
+  display: block;
+}
+
+.menu hr {
+  width: 700px;
+  margin-top: 10px;
+  margin-left: 310px;
+}
+
+.data h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.data a {
+  cursor: pointer;
+}
